@@ -1,0 +1,81 @@
+.bang-invitation-comments {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.bang-invitation-comment {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bang-invitation-comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.bang-invitation-comment-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.bang-invitation-comment-date {
+    font-size: 0.85em;
+    color: #777;
+}
+
+.bang-invitation-comment-content {
+    line-height: 1.5;
+}
+
+.bang-invitation-comment-content p {
+    margin-bottom: 10px;
+}
+
+.bang-invitation-music-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.bang-invitation-music-toggle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.bang-invitation-music-toggle:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bang-invitation-music-toggle .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .bang-invitation-music-container {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .bang-invitation-music-toggle {
+        width: 35px;
+        height: 35px;
+    }
+}
